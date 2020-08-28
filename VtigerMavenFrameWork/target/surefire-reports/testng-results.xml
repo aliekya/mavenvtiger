@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="90143" started-at="2020-03-16T17:31:37Z" finished-at="2020-03-16T17:33:07Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="90143" started-at="2020-03-16T17:31:37Z" finished-at="2020-03-16T17:33:07Z">
+      <class name="testScripts.EditVendorNameTest">
+        <test-method status="PASS" signature="dbConnection()[pri:0, instance:testScripts.EditVendorNameTest@6fb554cc]" name="dbConnection" is-config="true" duration-ms="31" started-at="2020-03-16T17:31:37Z" finished-at="2020-03-16T17:31:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:testScripts.EditVendorNameTest@6fb554cc]" name="browserlaunch" is-config="true" duration-ms="6310" started-at="2020-03-16T17:31:37Z" finished-at="2020-03-16T17:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testScripts.EditVendorNameTest@6fb554cc]" name="login" is-config="true" duration-ms="11017" started-at="2020-03-16T17:31:44Z" finished-at="2020-03-16T17:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="vendorEdit()[pri:0, instance:testScripts.EditVendorNameTest@6fb554cc]" name="vendorEdit" duration-ms="42716" started-at="2020-03-16T17:31:55Z" finished-at="2020-03-16T17:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vendorEdit -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testScripts.EditVendorNameTest@6fb554cc]" name="logout" is-config="true" duration-ms="2834" started-at="2020-03-16T17:32:37Z" finished-at="2020-03-16T17:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testScripts.EditVendorNameTest@6fb554cc]" name="closebrowser" is-config="true" duration-ms="804" started-at="2020-03-16T17:32:40Z" finished-at="2020-03-16T17:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="dbdisconnect()[pri:0, instance:testScripts.EditVendorNameTest@6fb554cc]" name="dbdisconnect" is-config="true" duration-ms="1" started-at="2020-03-16T17:33:08Z" finished-at="2020-03-16T17:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbdisconnect -->
+      </class> <!-- testScripts.EditVendorNameTest -->
+      <class name="testScripts.SearchTest">
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:testScripts.SearchTest@614c5515]" name="browserlaunch" is-config="true" duration-ms="4138" started-at="2020-03-16T17:32:41Z" finished-at="2020-03-16T17:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testScripts.SearchTest@614c5515]" name="login" is-config="true" duration-ms="11058" started-at="2020-03-16T17:32:45Z" finished-at="2020-03-16T17:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Searchoptions()[pri:0, instance:testScripts.SearchTest@614c5515]" name="Searchoptions" duration-ms="8561" started-at="2020-03-16T17:32:56Z" finished-at="2020-03-16T17:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchoptions -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testScripts.SearchTest@614c5515]" name="logout" is-config="true" duration-ms="1977" started-at="2020-03-16T17:33:05Z" finished-at="2020-03-16T17:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testScripts.SearchTest@614c5515]" name="closebrowser" is-config="true" duration-ms="686" started-at="2020-03-16T17:33:07Z" finished-at="2020-03-16T17:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testScripts.SearchTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
